@@ -17,23 +17,28 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 .navbar-default .navbar-brand {
-	font-size: 30px;
+	font-size: 40px;
 	color:white 
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar-default .navbar-collapse{
 	background-color:black;
+	padding-bottom:20px;
 }
 
 .navbar-default .navbar-nav > li > a {
 	color:white;
+	font-size:20px;
 }
 .container-fluid {
 	padding-right:0px;
 	padding-left:0px;
 }
 .navbar > .container-fluid .navbar-brand {
-    margin-left: 0px;
+    margin-left: 10px;
 }
 body {
 	background-color:#bab2b2;
