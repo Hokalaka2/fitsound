@@ -48,6 +48,7 @@ body {
 #music_pic {
 	height: 400px;
 	width: 580px;
+	display:block;
 }
 .news {
 	padding: 50px;
@@ -55,5 +56,8 @@ body {
 }
 .news_border {
 	border-right: 2px solid black;
+}
+.sign_up {
+	margin-bottom:60px;
 }
 
