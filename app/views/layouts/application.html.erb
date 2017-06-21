@@ -3,7 +3,7 @@
   <head>
     <title>Fitsound</title>
     <%= csrf_meta_tags %>
-
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -27,6 +27,7 @@
     		<div class = "collapse navbar-collapse" id=main-navbar-collapse>
     			<ul class = "nav navbar-nav navbar-right">
     				<li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Contact", contact_path %></li>
     			</ul>
     		</div>
     	</div>

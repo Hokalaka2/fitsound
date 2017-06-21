@@ -22,7 +22,8 @@
 
 .navbar-default .navbar-brand {
 	font-size: 40px;
-	color:white 
+	color:white;
+	font-family: 'Oswald', sans-serif;
 }
 .navbar-default .navbar-collapse{
 	background-color:black;
@@ -32,6 +33,7 @@
 .navbar-default .navbar-nav > li > a {
 	color:white;
 	font-size:20px;
+	font-family: 'Oswald', sans-serif;
 }
 .container-fluid {
 	padding-right:0px;
@@ -42,5 +44,9 @@
 }
 body {
 	background-color:#bab2b2;
+}
+#music_pic {
+	height: 400px;
+	width: 580px;
 }
 
